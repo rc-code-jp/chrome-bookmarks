@@ -1,0 +1,20 @@
+{
+  "name": "Menubar Bookmarks",
+  "description": "Menubar Bookmarks",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "bookmarks"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Menubar Bookmarks",
+    "default_icon": "icon.png"
+  }
+}
